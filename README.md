@@ -14,4 +14,4 @@ The comparison of TikTalkCoref with other multimodal coreference resolution data
 
 ## License
 
-This dataset is based on TikTalk (MIT License, Copyright (c) 2023 RUC-AIMind), with additional annotation collected by SudaNLP.  The original data remains under the MIT License.
+This dataset is based on [TikTalk](https://github.com/RUC-AIMind/TikTalk) (MIT License, Copyright (c) 2023 RUC-AIMind), with additional annotation collected by SudaNLP.  The original data remains under the MIT License.
