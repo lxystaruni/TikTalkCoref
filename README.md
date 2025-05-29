@@ -5,6 +5,8 @@ This repository is the project page for [TikTalkCoref](https://arxiv.org/abs/250
 
 <img width="755" alt="TiktalkCoref dataset" src="https://github.com/user-attachments/assets/d3be68a8-e04a-4f56-b384-a4bf32fdd5a9" />
 
+## Data Preparation
+Download the TikTalkCoref videos from [here]().
 
 ## Data Comparison
 The comparison of TikTalkCoref with other multimodal coreference resolution datasets is shown in the table below.
