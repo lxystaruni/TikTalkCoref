@@ -7,10 +7,25 @@ This repository is the project page for [TikTalkCoref](https://arxiv.org/abs/250
 
 ## Data Preparation
 Please follow these steps to preprocess your data:
-### Step 1: Run the Data Split Script
+### Step 1: Data Splitting
 Execute the following command in your terminal:
 ```bash
 python tools/data_split.py
+```
+Output file：
+```
+data/
+├── all/                     # Global split files
+│   ├── train.textual.jsonl
+│   ├── train.visual.jsonl
+│   ├── dev.textual.jsonl
+│   └── test.visual.jsonl
+├── celeb/                   # Celebrity-specific data
+│   ├── train.textual.jsonl
+│   └── dev.visual.jsonl
+└── no_celeb/                # Non-celebrity data
+    ├── test.textual.jsonl
+    └── train.visual.jsonl
 ```
 The videos are from Douyin (TikTok China). Due to copyright restrictions, please contact us at staruni065007@gmail.com for original video downloads if needed. 
 
