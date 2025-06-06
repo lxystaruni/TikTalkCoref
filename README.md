@@ -21,7 +21,7 @@ data/
 │   ├── train.textual.jsonl
 │   ├── train.visual.jsonl
 │   ├── (...other splits)
-├── celeb/                   # Celebrity-specific data
+├── celeb/                   # Celebrity data
 │   ├── (...split files)
 └── no_celeb/                # Non-celebrity data
     ├── (...split files)
