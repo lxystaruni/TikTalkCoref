@@ -15,17 +15,16 @@ python tools/data_split.py
 Output file：
 ```
 data/
+├── all.textual.jsonl
+├── all.visual.jsonl
 ├── all/                     # Global split files
 │   ├── train.textual.jsonl
 │   ├── train.visual.jsonl
-│   ├── dev.textual.jsonl
-│   └── test.visual.jsonl
+│   ├── (...other splits)
 ├── celeb/                   # Celebrity-specific data
-│   ├── train.textual.jsonl
-│   └── dev.visual.jsonl
+│   ├── (...split files)
 └── no_celeb/                # Non-celebrity data
-    ├── test.textual.jsonl
-    └── train.visual.jsonl
+    ├── (...split files)
 ```
 The videos are from Douyin (TikTok China). Due to copyright restrictions, please contact us at staruni065007@gmail.com for original video downloads if needed. 
 
