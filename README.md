@@ -6,9 +6,13 @@ This repository is the project page for [TikTalkCoref](https://arxiv.org/abs/250
 <img width="755" alt="TiktalkCoref dataset" src="https://github.com/user-attachments/assets/d3be68a8-e04a-4f56-b384-a4bf32fdd5a9" />
 
 ## Data Preparation
-The videos are from Douyin (TikTok China). Due to copyright restrictions, please contact us at staruni065007@gmail.com for original video downloads if needed.
+The videos are from Douyin (TikTok China). Due to copyright restrictions, please contact us at staruni065007@gmail.com for original video downloads if needed. 
+Please follow these steps to preprocess your data:
+### Step 1: Run the Data Split Script
+Execute the following command in your terminal:
 ```bash
 python tools/data_split.py
+```
 
 ## Data Comparison
 The comparison of TikTalkCoref with other multimodal coreference resolution datasets is shown in the table below.
