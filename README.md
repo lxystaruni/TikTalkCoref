@@ -7,6 +7,8 @@ This repository is the project page for [TikTalkCoref](https://arxiv.org/abs/250
 
 ## Data Preparation
 The videos are from Douyin (TikTok China). Due to copyright restrictions, please contact us at staruni065007@gmail.com for original video downloads if needed.
+```bash
+python tools/data_split.py
 
 ## Data Comparison
 The comparison of TikTalkCoref with other multimodal coreference resolution datasets is shown in the table below.
