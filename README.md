@@ -9,9 +9,11 @@ TikTalkCoref is the first Chinese multimodal coreference resolution dataset for 
 
 ## Data Preparation
 ### Annotation Files
-- `data/all_textual_and_visual_annotations_format.jsonl`: Annotation file containing both textual and visual modalities.
-- `data/split.jsonl`: The video type (celebrity/non-celebrity) and its corresponding dataset split (train/dev/test).
-- 
+- `data/all_textual_and_visual_annotations_format.jsonl`: Annotation file containing both textual and visual annotations.
+- `data/split.jsonl`: Split file contains the videos' type `celebrity/non-celebrity` and their corresponding dataset split `train/dev/test`.
+  ```json
+  {}
+  ```json
 ### Step 1: Data Splitting
 Execute the following command in your terminal:
 ```bash
