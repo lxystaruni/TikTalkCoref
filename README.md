@@ -3,7 +3,9 @@
 ## Introduction
 TikTalkCoref is the first Chinese multimodal coreference resolution dataset for real-world social media dialogues. The dataset comprises 1,012 annotated dialogues with 519.65 minutes of video footage, containing 1,435 coreference clusters, 2,179 mentions, and 958 visual bounding boxes. Our work has been accepted for publication at ACL 2025.
 
-<img width="755" alt="TiktalkCoref dataset" src="https://github.com/user-attachments/assets/d3be68a8-e04a-4f56-b384-a4bf32fdd5a9" />
+<div align="center">
+  <img width="755" alt="TiktalkCoref dataset" src="https://github.com/user-attachments/assets/d3be68a8-e04a-4f56-b384-a4bf32fdd5a9" />
+</div>
 
 ## Data Preparation
 ### Annotation Files
