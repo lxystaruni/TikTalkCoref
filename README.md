@@ -57,8 +57,8 @@ TikTalkCoref is the first Chinese multimodal coreference resolution dataset for 
   {"video_id": "7017732620826021132", "video_type": "no_celeb", "split": "test"}
   ```
 ### 2. Videos
-See an example video of TikTalkCoref from [here](https://github.com/user-attachments/assets/e608b78b-d7c0-42f9-bd6f-f4edf4760ca6).
 The videos are from Douyin (TikTok China). Due to copyright restrictions, please contact us at staruni065007@gmail.com for original video downloads if needed. 
+You can see an example video of TikTalkCoref from [here](https://github.com/user-attachments/assets/e608b78b-d7c0-42f9-bd6f-f4edf4760ca6).
 ## Data Processing​
 ### Step 1. Data Splitting
 Execute the following command in your terminal:
