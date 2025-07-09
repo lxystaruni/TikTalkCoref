@@ -1,7 +1,7 @@
 # TikTalkCoref
 [![arXiv](https://img.shields.io/badge/arXiv-2504.14321-b31b1b.svg)](https://arxiv.org/abs/2504.14321)
 ## Introduction
-TikTalkCoref is the first Chinese multimodal coreference resolution dataset for real-world social media dialogues. The dataset comprises 1,012 annotated dialogues with 519.65 minutes of video footage, containing 1,435 coreference clusters, 2,179 mentions, and 958 visual bounding boxes. Our work has been accepted for publication at ACL 2025.
+TikTalkCoref is the first Chinese multimodal coreference resolution dataset for real-world social media dialogues. The dataset comprises 1,012 dialogues with 519.65 minutes of video duration, containing 1,435 coreference clusters, 2,179 mentions, and 958 visual bounding boxes. Our work has been accepted for publication at ACL 2025.
 
 <div align="center">
   <img width="755" alt="TiktalkCoref dataset" src="https://github.com/user-attachments/assets/d3be68a8-e04a-4f56-b384-a4bf32fdd5a9" />
@@ -9,7 +9,8 @@ TikTalkCoref is the first Chinese multimodal coreference resolution dataset for 
 
 ## Data Preparation
 ### Annotation Files
-Please follow these steps to preprocess your data.
+- `data/all_textual_and_visual_annotations_format.jsonl`: Annotation file containing both textual and visual modalities.
+- `data/split.jsonl`: 
 ### Step 1: Data Splitting
 Execute the following command in your terminal:
 ```bash
