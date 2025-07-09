@@ -1,3 +1,4 @@
+
 # TikTalkCoref
 [![arXiv](https://img.shields.io/badge/arXiv-2504.14321-b31b1b.svg)](https://arxiv.org/abs/2504.14321)
 ## Introduction
@@ -8,7 +9,7 @@ TikTalkCoref is the first Chinese multimodal coreference resolution dataset for 
 </div>
 
 ## Data Overview
-### Annotation Files
+### 1. Annotation Files
 - `data/all_textual_and_visual_annotations_format.jsonl`: Annotation file containing both textual and visual annotations.
 
   ```json
@@ -55,7 +56,8 @@ TikTalkCoref is the first Chinese multimodal coreference resolution dataset for 
   {"video_id": "7017744338322984225", "video_type": "celeb", "split": "test"}
   {"video_id": "7017732620826021132", "video_type": "no_celeb", "split": "test"}
   ```
-### Videos
+### 2. Videos
+See an example video of TikTalkCoref from [here](https://github.com/user-attachments/assets/e608b78b-d7c0-42f9-bd6f-f4edf4760ca6).
 The videos are from Douyin (TikTok China). Due to copyright restrictions, please contact us at staruni065007@gmail.com for original video downloads if needed. 
 ## Data Processing​
 ### Step 1. Data Splitting
