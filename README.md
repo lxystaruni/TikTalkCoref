@@ -15,7 +15,7 @@ Multimodal coreference resolution (MCR) aims to identify mentions referring to t
 
 ## Requirements
 
-Python: >= 3.9, < 3.11
+Python: >= 3.8, < 3.11
 
 Pytorch: ~= 1.10.1
 
