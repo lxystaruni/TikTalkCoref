@@ -15,9 +15,11 @@ Multimodal coreference resolution (MCR) aims to identify mentions referring to t
 
 ## Requirements
 
-Pytorch == 1.10.1
+Python: >= 3.9, < 3.11
 
-transformers == 4.44.0
+Pytorch: ~= 1.10.1
+
+Transformers: ~= 4.44.0
 
 ## Data Statistic
 
