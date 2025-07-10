@@ -81,10 +81,11 @@ Statistic of TikTalkCoref is shown in the table below. Note that the statistical
   {"video_id": "7017732620826021132", "video_type": "no_celeb", "split": "test"}
   ```
 
-### 2. Videos
+### 2. Videos 
 
-You can see an example video of TikTalkCoref from [here](https://github.com/user-attachments/assets/e608b78b-d7c0-42f9-bd6f-f4edf4760ca6).
-The videos of TikTalkCoref are from Douyin (TikTok China). Due to copyright restrictions, please contact us at staruni065007@gmail.com for original video downloads if needed.
+See an example video of TikTalkCoref [here](https://github.com/user-attachments/assets/e608b78b-d7c0-42f9-bd6f-f4edf4760ca6).
+
+The videos in TikTalkCoref are sourced from Douyin (TikTok China). To comply with copyright regulations, the original videos cannot be directly redistributed. If you need the original videos, please contact us at staruni065007@gmail.com. Alternatively, you can download annotated video frames and region images from [Google Drive](https://drive.google.com/drive/folders/106czlouhBsRGYVE1FUaUIcqW8GCBesc8?usp=drive_link).
 
 ## Data Processing​
 
