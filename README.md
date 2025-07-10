@@ -70,7 +70,7 @@ Statistic of TikTalkCoref is shown in the table below. Note that the statistical
   - `genre`: Text type.
   - `clusters`: Grouped mentions which refer to the same person and singletons.
   - `entity_labels`: Visual entity' label corresponding to each cluster (if no corresponding visual entity, it is set to "none").
-  - `cur_frame`: Frames containing mentioned persons in the dialogue (only one frame annotated per person).
+  - `cur_frame`: Frame ID (only one frame annotated per person).
   - `celebrity`: Celebrity name (if not celebrity, it is set to "none").
 - `data/split.jsonl`: Split file contains the videos' type `celebrity/non-celebrity` and their corresponding dataset split `train/dev/test`.
   
