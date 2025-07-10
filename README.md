@@ -4,7 +4,7 @@
 
 Implementation of the paper `Multimodal Coreference Resolution for Chinese Social Media Dialogues: Dataset and Benchmark Approach`. The paper has been accepted in ACL 2025.
 <div align="center">
-  <img width="755" alt="TiktalkCoref dataset" src="https://github.com/user-attachments/assets/d3be68a8-e04a-4f56-b384-a4bf32fdd5a9" />
+  <img width="700" alt="TiktalkCoref dataset" src="https://github.com/user-attachments/assets/d3be68a8-e04a-4f56-b384-a4bf32fdd5a9" />
 </div>
 
 ## Abstract
