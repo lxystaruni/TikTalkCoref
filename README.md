@@ -1,22 +1,37 @@
 
 # Multimodal Coreference Resolution for Chinese Social Media Dialogues: Dataset and Benchmark Approach
+
 [![arXiv](https://img.shields.io/badge/arXiv-2504.14321-b31b1b.svg)](https://arxiv.org/abs/2504.14321)
 
 Implementation of the paper `Multimodal Coreference Resolution for Chinese Social Media Dialogues: Dataset and Benchmark Approach`. The paper has been accepted in ACL 2025.
+
 <div align="center">
   <img width="700" alt="TiktalkCoref dataset" src="https://github.com/user-attachments/assets/d3be68a8-e04a-4f56-b384-a4bf32fdd5a9" />
 </div>
 
 ## Abstract
+
 Multimodal coreference resolution (MCR) aims to identify mentions referring to the same entity across different modalities, such as text and visuals, and is essential for understanding multimodal content. In the era of rapidly growing multimodal content and social media, MCR is particularly crucial for interpreting user interactions and bridging text-visual references to improve communication and personalization. However, MCR research for real-world dialogues remains unexplored due to the lack of sufficient data resources. To address this gap, we introduce TikTalkCoref, the first Chinese multimodal coreference dataset for social media in real-world scenarios, derived from the popular Douyin short-video platform. This dataset pairs short videos with corresponding textual dialogues from user comments and includes manually annotated coreference clusters for both person mentions in the text and the coreferential person head regions in the corresponding video frames. We also present an effective benchmark approach for MCR, focusing on the celebrity domain, and conduct extensive experiments on our dataset, providing reliable benchmark results for this newly constructed dataset. 
 
 ## Requirements
+
 Pytorch == 1.10.1
 
 transformers == 4.44.0
 
-## Data Overview
+## Data Statistic
+
+Statistic of TikTalkCoref is shown in the table below. Note that the statistical results in this table differ slightly from those reported in the paper due to our corrections of some annotation errors.
+
+| Dataset            | Dialog | Duration(min) | Mention | Cluster | Bounding box |
+|:------------------:|:------:|:-------------:|:-------:|:-------:|:------------:|
+| TikTalkCoref       | 1012   | 519.65        | 2,179   | 1,435   | 955          |
+| TikTalkCoref-celeb | 338    | 158.33        | 731     | 488     | 426          |
+
+## Data Files
+
 ### 1. Annotation Files
+
 - `data/all_textual_and_visual_annotations_format.jsonl`: Annotation file containing both textual and visual annotations.
 
   ```json
@@ -63,16 +78,24 @@ transformers == 4.44.0
   {"video_id": "7017744338322984225", "video_type": "celeb", "split": "test"}
   {"video_id": "7017732620826021132", "video_type": "no_celeb", "split": "test"}
   ```
+
 ### 2. Videos
+
 You can see an example video of TikTalkCoref from [here](https://github.com/user-attachments/assets/e608b78b-d7c0-42f9-bd6f-f4edf4760ca6).
 The videos of TikTalkCoref are from Douyin (TikTok China). Due to copyright restrictions, please contact us at staruni065007@gmail.com for original video downloads if needed.
+
 ## Data Processing​
+
 ### Step 1. Data Splitting
+
 Execute the following command in your terminal:
+
 ```bash
 python tools/data_split.py
 ```
+
 Output file：
+
 ```
 data/
 ├── all.textual.jsonl
@@ -87,21 +110,9 @@ data/
     ├── (...split files)
 ```
 
-
-## Data Statistic
-Statistic of TikTalkCoref is shown in the table below. Note that the statistical results in this table differ slightly from those reported in the paper due to our corrections of some annotation errors.
-
-| Dataset            | Dialog | Duration(min) | Mention | Cluster | Bounding box |
-|:------------------:|:------:|:-------------:|:-------:|:-------:|:------------:|
-| TikTalkCoref       | 1012   | 519.65        | 2,179   | 1,435   | 955          |
-| TikTalkCoref-celeb | 338    | 158.33        | 731     | 488     | 426          |
-
-
-
 ## License
 
 This dataset is based on [TikTalk](https://github.com/RUC-AIMind/TikTalk) (MIT License, Copyright (c) 2023 RUC-AIMind), with additional annotation collected by SudaNLP.  The original data remains under the MIT License.
-
 
 ## Citation
 
