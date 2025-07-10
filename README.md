@@ -113,6 +113,14 @@ data/
     ├── (...split files)
 ```
 
+### Step 2. Convert images to Base64
+
+To facilitate model training, images are Base64-encoded. After downloading golden_region_images from Google Drive, run this script:
+
+```bash
+python tools/image_convert_base64.py
+```
+
 ## License
 
 This dataset is based on [TikTalk](https://github.com/RUC-AIMind/TikTalk) (MIT License, Copyright (c) 2023 RUC-AIMind), with additional annotation collected by SudaNLP.  The original data remains under the MIT License.
