@@ -88,9 +88,13 @@ data/
 ```
 
 
-## Data Comparison
-The comparison of TikTalkCoref with other multimodal coreference resolution datasets is shown in the table below.
-<img width="1380" alt="image" src="https://github.com/user-attachments/assets/859d3939-a7b4-4396-ac72-9851051f31c7" />
+## Data Statistic
+Statistic of TikTalkCoref is shown in the table below. Note that the statistical results in this table differ slightly from those reported in the paper due to our corrections of some annotation errors.
+
+| Dataset            | Dialog | Duration(min) | Mention | Cluster | Bounding box |
+|:------------------:|:------:|:-------------:|:-------:|:-------:|:------------:|
+| TikTalkCoref       | 1012   | 519.65        | 2,179   | 1,435   | 955          |
+| TikTalkCoref-celeb | 338    | 158.33        | 731     | 488     | 426          |
 
 
 
