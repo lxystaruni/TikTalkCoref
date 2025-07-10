@@ -3,14 +3,14 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2504.14321-b31b1b.svg)](https://arxiv.org/abs/2504.14321)
 
 Implementation of the paper `Multimodal Coreference Resolution for Chinese Social Media Dialogues: Dataset and Benchmark Approach`. The paper has been accepted in ACL 2025.
-
+<div align="center">
+  <img width="755" alt="TiktalkCoref dataset" src="https://github.com/user-attachments/assets/d3be68a8-e04a-4f56-b384-a4bf32fdd5a9" />
+</div>
 
 ## Abstract
 Multimodal coreference resolution (MCR) aims to identify mentions referring to the same entity across different modalities, such as text and visuals, and is essential for understanding multimodal content. In the era of rapidly growing multimodal content and social media, MCR is particularly crucial for interpreting user interactions and bridging text-visual references to improve communication and personalization. However, MCR research for real-world dialogues remains unexplored due to the lack of sufficient data resources. To address this gap, we introduce TikTalkCoref, the first Chinese multimodal coreference dataset for social media in real-world scenarios, derived from the popular Douyin short-video platform. This dataset pairs short videos with corresponding textual dialogues from user comments and includes manually annotated coreference clusters for both person mentions in the text and the coreferential person head regions in the corresponding video frames. We also present an effective benchmark approach for MCR, focusing on the celebrity domain, and conduct extensive experiments on our dataset, providing reliable benchmark results for this newly constructed dataset. 
 
-<div align="center">
-  <img width="755" alt="TiktalkCoref dataset" src="https://github.com/user-attachments/assets/d3be68a8-e04a-4f56-b384-a4bf32fdd5a9" />
-</div>
+
 
 ## Data Overview
 ### 1. Annotation Files
