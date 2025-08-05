@@ -128,16 +128,16 @@ This dataset is based on [TikTalk](https://github.com/RUC-AIMind/TikTalk) (MIT L
 ## Citation
 
 ```bibtex
-@inproceedings{Li-2025-TikTalkCoref,
-  title     = {Multimodal Coreference Resolution for Chinese Social Media Dialogues: Dataset and Benchmark Approach},
-  author    = {Xingyu Li, Chen Gong and Guohong Fu},
-  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
-  month     = aug,
-  year      = {2025},
-  publisher = {Association for Computational Linguistics},
-  address   = {Vienna, Austria},  
-  pages     = {xxx--xxx},           
-  url       = {https://aclanthology.org/2025.acl-long.xxx}, 
-  doi       = {10.18653/v1/2025.acl-long.xxx}                
+@inproceedings{li-etal-2025-multimodal,
+    title = "Multimodal Coreference Resolution for {C}hinese Social Media Dialogues: Dataset and Benchmark Approach",
+    author = "Xingyu Li, Chen Gong and Guohong Fu",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1520/",
+    doi = "10.18653/v1/2025.acl-long.1520",
+    pages = "31513--31525"
 }
 ```
